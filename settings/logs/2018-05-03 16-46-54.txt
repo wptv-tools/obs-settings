@@ -1,0 +1,318 @@
+16:46:54.296: CPU Name: Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz
+16:46:54.296: CPU Speed: 2712MHz
+16:46:54.296: Physical Cores: 2, Logical Cores: 4
+16:46:54.296: Physical Memory: 8084MB Total, 5186MB Free
+16:46:54.296: Windows Version: 10.0 Build 16299 (revision: 19; 64-bit)
+16:46:54.296: Running as administrator: false
+16:46:54.296: Aero is Enabled (Aero is always on for windows 8 and above)
+16:46:54.296: Windows 10 Gaming Features:
+16:46:54.296: 	Game Bar: Off
+16:46:54.296: 	Game DVR Allowed: Yes
+16:46:54.296: 	Game DVR: Off
+16:46:54.296: 	Game DVR Background Recording: Off
+16:46:54.296: 	Game Mode: Off
+16:46:54.296: Portable mode: false
+16:46:54.316: OBS 20.1.1 (64bit, windows)
+16:46:54.316: ---------------------------------
+16:46:54.317: ---------------------------------
+16:46:54.317: audio settings reset:
+16:46:54.317: 	samples per sec: 48000
+16:46:54.317: 	speakers:        2
+16:46:54.318: ---------------------------------
+16:46:54.318: Initializing D3D11...
+16:46:54.318: Available Video Adapters: 
+16:46:54.319: 	Adapter 1: Intel(R) HD Graphics 620
+16:46:54.319: 	  Dedicated VRAM: 134217728
+16:46:54.319: 	  Shared VRAM:    4238649344
+16:46:54.320: 	  output 1: pos={0, 0}, size={1920, 1080}, attached=true
+16:46:54.322: Loading up D3D11 on adapter Intel(R) HD Graphics 620 (0)
+16:46:54.328: D3D11 loaded successfully, feature level used: 45056
+16:46:55.565: ---------------------------------
+16:46:55.565: video settings reset:
+16:46:55.565: 	base resolution:   1920x1080
+16:46:55.565: 	output resolution: 1920x1080
+16:46:55.565: 	downscale filter:  Bicubic
+16:46:55.565: 	fps:               30/1
+16:46:55.565: 	format:            NV12
+16:46:55.566: Audio monitoring device:
+16:46:55.566: 	name: Standard
+16:46:55.566: 	id: default
+16:46:55.566: ---------------------------------
+16:46:55.568: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+16:46:55.569: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+16:46:55.571: [AMF] Encountered Exception during AMF initialization: Unable to load 'amfrt64.dll', error code 126.
+16:46:55.571: Failed to initialize module 'enc-amf.dll'
+16:46:55.582: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+16:46:55.582: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+16:46:55.583: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+16:46:55.583: Failed to load 'en-US' text for module: 'obs-browser.dll'
+16:46:55.584: [browser_source: 'Version: 1.29.0']
+16:46:55.587: LoadLibrary failed for 'nvEncodeAPI64.dll': The specified module could not be found.
+16:46:55.587:  (126)
+16:46:55.601: Couldn't find VLC installation, VLC video source disabled
+16:46:55.607: No blackmagic support
+16:46:55.608: [rtmp-services plugin] Remote update of URL "https://obsproject.com/obs2_update/rtmp-services/package.json" failed: Could not resolve host: obsproject.com
+16:46:55.887: ---------------------------------
+16:46:55.887:   Loaded Modules:
+16:46:55.887:     win-wasapi.dll
+16:46:55.887:     win-mf.dll
+16:46:55.887:     win-dshow.dll
+16:46:55.887:     win-decklink.dll
+16:46:55.887:     win-capture.dll
+16:46:55.887:     vlc-video.dll
+16:46:55.887:     text-freetype2.dll
+16:46:55.887:     rtmp-services.dll
+16:46:55.887:     obs-x264.dll
+16:46:55.887:     obs-vst.dll
+16:46:55.887:     obs-transitions.dll
+16:46:55.887:     obs-text.dll
+16:46:55.887:     obs-qsv11.dll
+16:46:55.887:     obs-outputs.dll
+16:46:55.887:     obs-filters.dll
+16:46:55.887:     obs-ffmpeg.dll
+16:46:55.887:     obs-browser.dll
+16:46:55.887:     image-source.dll
+16:46:55.887:     frontend-tools.dll
+16:46:55.887:     enc-amf.dll
+16:46:55.887:     coreaudio-encoder.dll
+16:46:55.887: ---------------------------------
+16:46:55.887: ==== Startup complete ===============================================
+16:46:55.888: Service '' not found
+16:46:55.892: All scene data cleared
+16:46:55.892: ------------------------------------------------
+16:46:55.901: [WASAPISource::WASAPISource] Device '{0.0.1.00000000}.{300a32f2-a7cb-4314-b574-8810c868e079}' not found.  Waiting for device
+16:46:56.120: warning: deprecated pixel format used, make sure you did set range correctly
+16:46:56.120: warning: Warning: data is not aligned! This can lead to a speed loss
+16:46:56.159: Switched to scene 'Folien'
+16:46:56.159: ------------------------------------------------
+16:46:56.159: Loaded scenes:
+16:46:56.159: - scene 'Titel':
+16:46:56.159:     - source: 'Hintergrund' (image_source)
+16:46:56.159:     - source: 'Veranstaltung' (text_gdiplus)
+16:46:56.159:     - source: 'Logo Titel' (image_source)
+16:46:56.159:     - source: 'Datum' (text_gdiplus)
+16:46:56.159:     - source: 'Vortrag' (text_gdiplus)
+16:46:56.159:     - source: 'Vortragender' (text_gdiplus)
+16:46:56.159:     - source: 'Session' (text_gdiplus)
+16:46:56.164:     - source: 'Speaker' (text_gdiplus)
+16:46:56.165: - scene 'Folien':
+16:46:56.165:     - source: 'SpeakerCam' (dshow_input)
+16:46:56.165:     - source: 'SpeakerScreen' (dshow_input)
+16:46:56.165:     - source: 'Rahmen' (image_source)
+16:46:56.165:     - source: 'Veranstaltung' (text_gdiplus)
+16:46:56.166:     - source: 'Vortrag' (text_gdiplus)
+16:46:56.166:     - source: 'Vortragender' (text_gdiplus)
+16:46:56.166:     - source: 'Datum' (text_gdiplus)
+16:46:56.166:     - source: 'Session' (text_gdiplus)
+16:46:56.166:     - source: 'Speaker' (text_gdiplus)
+16:46:56.166:     - source: 'Logo Titel' (image_source)
+16:46:56.166: - scene 'Sprecher':
+16:46:56.167:     - source: 'SpeakerCam' (dshow_input)
+16:46:56.167:     - source: 'SpeakerScreen' (dshow_input)
+16:46:56.167:     - source: 'Rahmen' (image_source)
+16:46:56.167:     - source: 'Veranstaltung' (text_gdiplus)
+16:46:56.167:     - source: 'Vortrag' (text_gdiplus)
+16:46:56.167:     - source: 'Vortragender' (text_gdiplus)
+16:46:56.167:     - source: 'Datum' (text_gdiplus)
+16:46:56.167:     - source: 'Logo Titel' (image_source)
+16:46:56.167:     - source: 'Session' (text_gdiplus)
+16:46:56.167:     - source: 'Speaker' (text_gdiplus)
+16:46:56.167: - scene 'FolienFullscreen':
+16:46:56.167:     - source: 'SpeakerScreen' (dshow_input)
+16:46:56.167: ------------------------------------------------
+16:46:56.204: AutoUpdateThread::run: Failed to fetch manifest file: Could not resolve host: obsproject.com
+16:46:56.213: ---------------------------------
+16:46:56.213: [DShow Device: 'SpeakerCam'] settings updated: 
+16:46:56.213: 	video device: Logitech HD Pro Webcam C920
+16:46:56.213: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&323fdf11&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+16:46:56.213: 	resolution: 640x480
+16:46:56.213: 	fps: 30.00 (interval: 333333)
+16:46:56.213: 	format: I420
+16:46:58.473: ---------------------------------
+16:46:58.473: [DShow Device: 'SpeakerScreen'] settings updated: 
+16:46:58.473: 	video device: Elgato Game Capture HD
+16:46:58.473: 	video path: __elgato
+16:46:58.473: 	resolution: 640x480
+16:46:58.473: 	fps: 30.00 (interval: 333333)
+16:46:58.473: 	format: UYVY
+16:46:58.473: 	using video device audio: yes
+16:46:58.473: 	sample rate: 48000
+16:46:58.473: 	channels: 2
+16:46:58.473: 	audio type: Capture
+16:48:16.898: User switched to scene 'Sprecher'
+16:48:19.537: User switched to scene 'Titel'
+16:48:20.746: User switched to scene 'Folien'
+16:48:28.651: User switched to scene 'Sprecher'
+16:48:30.636: User switched to scene 'FolienFullscreen'
+16:48:33.264: User switched to scene 'Titel'
+16:49:06.890: User switched to scene 'Folien'
+16:49:19.404: User switched to scene 'Titel'
+16:49:19.814: User switched to scene 'Folien'
+16:49:20.147: User switched to scene 'Sprecher'
+16:49:20.393: User switched to scene 'FolienFullscreen'
+16:49:21.258: User switched to scene 'Sprecher'
+16:49:22.344: User switched to scene 'Titel'
+16:49:27.425: Starting recording due to hotkey
+16:49:27.428: [qsv encoder: 'simple_h264_stream'] settings:
+16:49:27.428: 	rate_control:   CBR
+16:49:27.428: 	target_bitrate: 2500
+16:49:27.428: 	fps_num:        30
+16:49:27.428: 	fps_den:        1
+16:49:27.428: 	width:          1920
+16:49:27.428: 	height:         1080
+16:49:27.428: [qsv encoder: 'simple_h264_stream'] debug info:
+16:49:27.434: 	impl:           D3D11
+16:49:27.434: 	surf:           D3D11
+16:49:27.479: 	m_nSurfNum:     16
+16:49:27.490: 	m_nTaskPool:    4
+16:49:27.490: 	major:          1
+16:49:27.490: 	minor:          19
+16:49:27.511: [Media Foundation AAC: 'simple_aac']: encoder created
+16:49:27.511: 	bitrate: 160
+16:49:27.511: 	channels: 2
+16:49:27.511: 	sample rate: 48000
+16:49:27.511: 	bits-per-sample: 16
+16:49:27.511: 
+16:49:27.520: ==== Recording Start ===============================================
+16:49:27.521: [ffmpeg muxer: 'simple_file_output'] Writing file 'C:/Users/video/Videos/2018-05-03 16-49-27.mp4'...
+16:50:00.757: User switched to scene 'Folien'
+16:50:59.004: WASAPI: Device 'Mikrofon (USB Audio CODEC )' initialized
+16:50:59.046: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds
+16:51:03.650: WASAPI: Device 'Mikrofon (USB Audio CODEC )' Terminated
+16:51:03.675: WASAPI: Device 'Mikrofon (USB Audio CODEC )' initialized
+16:51:04.478: adding 21 milliseconds of audio buffering, total audio buffering is now 64 milliseconds
+16:59:13.391: adding 106 milliseconds of audio buffering, total audio buffering is now 170 milliseconds
+17:00:24.075: User switched to scene 'Folien'
+17:00:24.590: User switched to scene 'Sprecher'
+17:00:26.891: User switched to scene 'Folien'
+17:00:37.948: User switched to scene 'Sprecher'
+17:01:10.689: User switched to scene 'Titel'
+17:01:14.820: User switched to scene 'Titel'
+17:01:15.822: User switched to scene 'Folien'
+17:01:17.989: User switched to scene 'Folien'
+17:01:18.413: User switched to scene 'Titel'
+17:01:18.802: User switched to scene 'Folien'
+17:01:30.079: User switched to scene 'FolienFullscreen'
+17:02:07.683: Stopping recording due to hotkey
+17:02:08.405: [ffmpeg muxer: 'simple_file_output'] Output of file 'C:/Users/video/Videos/2018-05-03 16-49-27.mp4' stopped
+17:02:08.405: Output 'simple_file_output': stopping
+17:02:08.405: Output 'simple_file_output': Total frames output: 22807
+17:02:08.405: Output 'simple_file_output': Total drawn frames: 22827
+17:02:08.405: ==== Recording Stop ================================================
+17:02:19.451: User switched to scene 'Titel'
+17:02:27.359: User switched to scene 'Folien'
+17:10:24.172: adding 21 milliseconds of audio buffering, total audio buffering is now 192 milliseconds
+17:12:05.575: User switched to scene 'Sprecher'
+17:12:05.847: User switched to scene 'FolienFullscreen'
+17:13:46.147: ---------------------------------
+17:13:46.147: [DShow Device: 'SpeakerScreen'] settings updated: 
+17:13:46.147: 	video device: EasyCamera
+17:13:46.147: 	video path: \\?\usb#vid_04f2&pid_b57d&mi_00#6&36a64698&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:13:46.147: 	resolution: 1280x720
+17:13:46.147: 	fps: 30.00 (interval: 333333)
+17:13:46.147: 	format: MJPEG
+17:13:46.148: DShow: HDevice::ConnectPins: failed to connect pins (0x80040207): The owner SID on a per-user subscription doesn't exist
+17:13:46.148: 
+17:13:49.933: ---------------------------------
+17:13:49.934: [DShow Device: 'SpeakerScreen'] settings updated: 
+17:13:49.934: 	video device: Logitech HD Pro Webcam C920
+17:13:49.934: 	video path: \\?\usb#vid_046d&pid_082d&mi_00#6&323fdf11&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{bbefb6c7-2fc4-4139-bb8b-a58bba724083}
+17:13:49.934: 	resolution: 640x480
+17:13:49.934: 	fps: 30.00 (interval: 333333)
+17:13:49.934: 	format: I420
+17:13:49.942: DShow: Run failed, device already in use (0x8007001F): A device attached to the system is not functioning.
+17:13:49.942: 
+17:13:56.688: ---------------------------------
+17:13:56.688: [DShow Device: 'SpeakerScreen'] settings updated: 
+17:13:56.688: 	video device: Elgato Game Capture HD
+17:13:56.688: 	video path: __elgato
+17:13:56.688: 	resolution: 1280x720
+17:13:56.688: 	fps: 60.00 (interval: 166666)
+17:13:56.688: 	format: UYVY
+17:13:56.688: 	using video device audio: yes
+17:13:56.688: 	sample rate: 48000
+17:13:56.688: 	channels: 2
+17:13:56.688: 	audio type: Capture
+17:14:12.900: User switched to scene 'Folien'
+17:15:27.382: User switched to scene 'Sprecher'
+17:16:18.563: User switched to scene 'FolienFullscreen'
+17:17:01.091: User switched to scene 'Titel'
+17:17:02.693: User switched to scene 'Folien'
+17:17:06.460: User switched to scene 'Sprecher'
+17:17:37.549: User switched to scene 'Titel'
+17:17:43.500: User switched to scene 'Folien'
+18:43:36.560: ==== Shutting down ==================================================
+18:43:36.576: Switched to scene '(null)'
+18:43:39.996: WASAPI: Device 'Mikrofon (USB Audio CODEC )' Terminated
+18:43:40.001: All scene data cleared
+18:43:40.001: ------------------------------------------------
+18:43:40.059: Freeing OBS context data
+18:43:40.137: == Profiler Results =============================
+18:43:40.137: run_program_init: 2075.2 ms
+18:43:40.137:  ┣OBSApp::AppInit: 23.078 ms
+18:43:40.137:  ┃ ┗OBSApp::InitLocale: 2.996 ms
+18:43:40.137:  ┗OBSApp::OBSInit: 2041.49 ms
+18:43:40.137:    ┣obs_startup: 1.765 ms
+18:43:40.137:    ┗OBSBasic::OBSInit: 1996.62 ms
+18:43:40.137:      ┣OBSBasic::InitBasicConfig: 0.541 ms
+18:43:40.137:      ┣OBSBasic::ResetAudio: 0.118 ms
+18:43:40.137:      ┣OBSBasic::ResetVideo: 1249.6 ms
+18:43:40.137:      ┣OBSBasic::InitOBSCallbacks: 0.006 ms
+18:43:40.137:      ┣OBSBasic::InitHotkeys: 0.054 ms
+18:43:40.137:      ┣obs_load_all_modules: 320.978 ms
+18:43:40.137:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 0.524 ms
+18:43:40.137:      ┃ ┣obs_init_module(enc-amf.dll): 0.433 ms
+18:43:40.137:      ┃ ┣obs_init_module(frontend-tools.dll): 1.885 ms
+18:43:40.137:      ┃ ┣obs_init_module(image-source.dll): 0.01 ms
+18:43:40.137:      ┃ ┣obs_init_module(obs-browser.dll): 0.077 ms
+18:43:40.137:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.671 ms
+18:43:40.137:      ┃ ┣obs_init_module(obs-filters.dll): 0.013 ms
+18:43:40.137:      ┃ ┣obs_init_module(obs-outputs.dll): 0.007 ms
+18:43:40.137:      ┃ ┣obs_init_module(obs-qsv11.dll): 4.07 ms
+18:43:40.137:      ┃ ┣obs_init_module(obs-text.dll): 0.436 ms
+18:43:40.137:      ┃ ┣obs_init_module(obs-transitions.dll): 0.007 ms
+18:43:40.137:      ┃ ┣obs_init_module(obs-vst.dll): 0.002 ms
+18:43:40.137:      ┃ ┣obs_init_module(obs-x264.dll): 0.001 ms
+18:43:40.137:      ┃ ┣obs_init_module(rtmp-services.dll): 1.41 ms
+18:43:40.137:      ┃ ┣obs_init_module(text-freetype2.dll): 0.059 ms
+18:43:40.137:      ┃ ┣obs_init_module(vlc-video.dll): 0.037 ms
+18:43:40.137:      ┃ ┣obs_init_module(win-capture.dll): 0.076 ms
+18:43:40.137:      ┃ ┣obs_init_module(win-decklink.dll): 4.753 ms
+18:43:40.137:      ┃ ┣obs_init_module(win-dshow.dll): 1.458 ms
+18:43:40.137:      ┃ ┣obs_init_module(win-mf.dll): 273.885 ms
+18:43:40.137:      ┃ ┣obs_init_module(win-wasapi.dll): 0.006 ms
+18:43:40.137:      ┃ ┗reset_win32_symbol_paths: 0.118 ms
+18:43:40.137:      ┣OBSBasic::ResetOutputs: 0.234 ms
+18:43:40.137:      ┣OBSBasic::CreateHotkeys: 0.298 ms
+18:43:40.137:      ┣OBSBasic::InitService: 1.57 ms
+18:43:40.137:      ┣OBSBasic::InitPrimitives: 0.456 ms
+18:43:40.137:      ┗OBSBasic::Load: 277.201 ms
+18:43:40.137: obs_hotkey_thread(25 ms): min=0.003 ms, median=0.008 ms, max=5.361 ms, 99th percentile=0.071 ms, 100% below 25 ms
+18:43:40.137: audio_thread(Audio): min=0 ms, median=0.066 ms, max=26.231 ms, 99th percentile=1.605 ms
+18:43:40.137:  ┗receive_audio: min=0.001 ms, median=0.392 ms, max=14.604 ms, 99th percentile=1.201 ms, 0.10698 calls per parent call
+18:43:40.137:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.19 ms, 99th percentile=0.007 ms
+18:43:40.138:    ┗do_encode: min=0.104 ms, median=0.386 ms, max=14.599 ms, 99th percentile=1.183 ms
+18:43:40.138:      ┗encode(simple_aac): min=0.094 ms, median=0.349 ms, max=5.417 ms, 99th percentile=1.001 ms
+18:43:40.138: obs_video_thread(33.3333 ms): min=1.294 ms, median=4.293 ms, max=217.709 ms, 99th percentile=17.919 ms, 99.9833% below 33.333 ms
+18:43:40.138:  ┣tick_sources: min=0.001 ms, median=0.017 ms, max=216.756 ms, 99th percentile=0.392 ms
+18:43:40.138:  ┣render_displays: min=0.001 ms, median=1.461 ms, max=41.026 ms, 99th percentile=10.643 ms
+18:43:40.138:  ┗output_frame: min=0.696 ms, median=2.69 ms, max=39.368 ms, 99th percentile=11.653 ms
+18:43:40.138:    ┣gs_context(video->graphics): min=0.085 ms, median=0.35 ms, max=32.438 ms, 99th percentile=4.484 ms
+18:43:40.138:    ┃ ┣render_video: min=0.06 ms, median=0.259 ms, max=30.535 ms, 99th percentile=3.69 ms
+18:43:40.138:    ┃ ┃ ┣render_main_texture: min=0.004 ms, median=0.173 ms, max=30.442 ms, 99th percentile=3.168 ms
+18:43:40.138:    ┃ ┃ ┣render_output_texture: min=0.005 ms, median=0.023 ms, max=24.553 ms, 99th percentile=0.491 ms
+18:43:40.138:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.026 ms, max=23.251 ms, 99th percentile=0.423 ms
+18:43:40.138:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.022 ms, max=22.004 ms, 99th percentile=0.24 ms
+18:43:40.138:    ┃ ┣download_frame: min=0 ms, median=0.01 ms, max=19.628 ms, 99th percentile=0.098 ms
+18:43:40.138:    ┃ ┗gs_flush: min=0.016 ms, median=0.066 ms, max=30.635 ms, 99th percentile=1.4 ms
+18:43:40.138:    ┗output_video_data: min=0.378 ms, median=2.277 ms, max=38.781 ms, 99th percentile=9.118 ms
+18:43:40.138: video_thread(video): min=0 ms, median=0.004 ms, max=28.39 ms, 99th percentile=2.967 ms
+18:43:40.138:  ┗receive_video: min=0.002 ms, median=2.479 ms, max=23.036 ms, 99th percentile=4.142 ms, 0.108635 calls per parent call
+18:43:40.138:    ┗do_encode: min=0.528 ms, median=2.476 ms, max=23.034 ms, 99th percentile=4.136 ms
+18:43:40.138:      ┗encode(simple_h264_stream): min=0.509 ms, median=2.402 ms, max=23.011 ms, 99th percentile=3.916 ms
+18:43:40.138: =================================================
+18:43:40.138: == Profiler Time Between Calls ==================
+18:43:40.138: obs_hotkey_thread(25 ms): min=24.089 ms, median=25.07 ms, max=113.343 ms, 90.724% within ±2% of 25 ms (0.995116% lower, 8.2809% higher)
+18:43:40.138: obs_video_thread(33.3333 ms): min=3.074 ms, median=33.333 ms, max=217.721 ms, 57.0043% within ±2% of 33.333 ms (21.7853% lower, 21.2104% higher)
+18:43:40.138: =================================================
+18:43:41.067: Number of memory leaks: 1
