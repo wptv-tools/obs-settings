@@ -1,3 +1,4 @@
 settings/crashes/
 settings/logs/
 settings/profiler_data/
+*.bak
